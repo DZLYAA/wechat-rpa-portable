@@ -1,23 +1,38 @@
 # Local configuration and secrets
-config/app.json
-config/secrets.dat
+/config/*.json
+!/config/*.example.json
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
 
-# Runtime state and logs
-state/
-logs/
-data/ciphertalk-cache/
+# Runtime state, logs, local databases and media
+/state/
+/logs/
+/data/ciphertalk-cache/
+*.db
+*.db-shm
+*.db-wal
+sessions*.json
+*_error.txt
+*_exit_code.txt
+*_warnings.txt
 
 # Personal Excel files and backups
-data/wechat_messages.xlsx
+/data/*.xlsx
+!/data/*_template.xlsx
 *.before_*.xlsx
 
 # Generated caches
 __pycache__/
 *.py[cod]
 *.tmp
+*.download
 
-# Large official installer is distributed as part of the GitHub Release ZIP
-vendor/ciphertalk/CipherTalk-*-Setup.exe
+# Third-party installer is downloaded locally and never redistributed
+/vendor/ciphertalk/CipherTalk-*-Setup.exe
 
 # Local release archives
 *.zip

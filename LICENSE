@@ -1,0 +1,27 @@
+Wechat RPA Portable Project License
+===================================
+
+Copyright (c) 2026 DZLYAA
+
+Except for files identified as third-party material, the original code and
+documentation in this repository are licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License
+(CC BY-NC-SA 4.0).
+
+You may share and adapt this material only when you:
+
+1. give appropriate credit and link to the license;
+2. do not use it for commercial purposes; and
+3. distribute adaptations under the same license.
+
+Full legal code:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Third-party software and trademarks remain subject to their respective
+licenses and terms. In particular, CipherTalk is owned by ILoveBingLu and is
+covered by the license copied at vendor/ciphertalk/LICENSE.txt. No third-party
+software is sublicensed by this file.
+
+This project is provided "as is", without warranty of any kind. It may only be
+used with accounts and data that the operator is authorized to access. The
+operator is responsible for privacy, consent, retention, and applicable law.
