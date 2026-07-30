@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "ciphertalkRoot": "",
+  "ciphertalkConfigDb": "%APPDATA%\\ciphertalk\\ciphertalk-config.db",
+  "ciphertalkStartCommand": "",
+  "wechatDbPath": "",
+  "wxid": "",
+  "excelPath": "data\\wechat_messages.xlsx",
+  "pollIntervalSeconds": 5,
+  "collectorWaitSeconds": 3,
+  "sessionLimit": 500,
+  "messageLimit": 200,
+  "baselineMessageLimit": 50,
+  "mcpReadyTimeoutSeconds": 90,
+  "autoStartCipherTalk": true,
+  "embedImages": true,
+  "includeMediaPaths": true
+}
