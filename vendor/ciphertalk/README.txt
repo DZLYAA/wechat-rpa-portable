@@ -1,19 +1,15 @@
-此目录包含 CipherTalk（密语）v2026.729.0 官方 Windows 安装程序。
+此目录只保存 CipherTalk（密语）v2026.729.0 的来源、版本、许可证和哈希信息。
 
-来源：
+公开仓库及 Release 不附带 CipherTalk 安装程序。根目录的“1-安装密语.exe”会在用户确认后从以下官方地址下载：
+
 https://github.com/ILoveBingLu/CipherTalk/releases/tag/v2026.729.0
 
-安装程序：
-CipherTalk-2026.729.0-Setup.exe
+安装程序：CipherTalk-2026.729.0-Setup.exe
 
-SHA-256：
-48354069b274591a2ca855fee8100addde3b0f75d05e8336ebb509f6a94bf88b
+SHA-256：48354069b274591a2ca855fee8100addde3b0f75d05e8336ebb509f6a94bf88b
 
-此安装程序未被本工具修改。根目录的“1-安装密语.exe”只负责在启动前校验
-SHA-256、显示许可提示，然后打开官方安装向导。
+下载完成后必须通过 SHA-256 校验才会启动。下载到本目录的安装程序属于本机临时依赖，已被 Git 和 Release 构建规则排除，不得重新提交或打包分发。
 
-该官方 Release 文件没有 Windows Authenticode 数字签名，部分电脑可能显示
-SmartScreen 或未知发布者提示。请按本机或组织安全策略处理，不要关闭安全软件。
+官方安装程序没有 Windows Authenticode 数字签名，部分电脑可能显示 SmartScreen 或未知发布者提示。请按本机或组织安全策略处理，不要关闭安全软件。
 
-许可证：CC BY-NC-SA 4.0，仅限学习和个人非商业用途。
-完整许可证见 LICENSE.txt。
+许可证：CC BY-NC-SA 4.0，仅限学习和个人非商业用途。完整许可证见 LICENSE.txt。
